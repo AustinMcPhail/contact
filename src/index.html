@@ -1,166 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.scss" />
-    <title>Contact Austin McPhail</title>
-  </head>
-  <body class="grid place-items-center">
-    <div class="max-w-sm text-center space-y-2">
-      <h1 class="text-4xl font-bold text-gray-800">Austin McPhail</h1>
-      <p id="intro" class="text-xl text-gray-800">
-        Heyo! I'm a Full Stack developer with a heavy interest in front-end tech
-        and tooling.
-      </p>
-      <p id="desc" class="text-sm text-gray-800">
-        Professionally, I use and am familiar with Angular/Angular2+, various
-        design frameworks such as
-        <span>Bootstrap</span>, <span>TailwindCSS</span>, and
-        <span>Material</span>. Alongside the frameworks, I also am knowledgeable
-        in CSS Flex and Grid (😍)!
-      </p>
-      <p class="text-gray-800 text-sm">Other interests include:</p>
-      <ul class="flex space-x-2 justify-center flex-wrap">
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          Running
-        </li>
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          React
-        </li>
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          Design
-        </li>
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          CI/CD
-        </li>
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          Gaming
-        </li>
-        <li
-          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-blue-100 text-blue-800 mb-1"
-        >
-          Theatre
-        </li>
-      </ul>
-      <form name="contact" method="POST" data-netlify="true" class="text-left">
-        <div>
-          <label
-            for="name"
-            class="block text-sm font-medium leading-5 text-gray-700"
-            >Your Name</label
-          >
-          <div class="mt-1 relative rounded-md shadow-sm">
-            <input
-              id="name"
-              name="name"
-              type="text"
-              class="form-input block w-full sm:text-sm sm:leading-5"
-            />
-          </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.scss" />
+  <title>Contact Austin McPhail</title>
+</head>
+
+<body class="grid place-items-center">
+  <div class="max-w-sm text-center space-y-2">
+    <h1 class="text-4xl font-bold text-gray-800">Austin McPhail</h1>
+    <p id="intro" class="text-xl text-gray-800">
+      Heyo! I'm a Full Stack developer with a heavy interest in front-end tech
+      and tooling.
+    </p>
+    <p id="desc" class="text-sm text-gray-800">
+      Professionally, I use and am familiar with Angular/Angular2+, various
+      design frameworks such as
+      <span>Bootstrap</span>, <span>TailwindCSS</span>, and
+      <span>Material</span>. Alongside the frameworks, I also am knowledgeable
+      in CSS Flex and Grid (😍)!
+    </p>
+    <p class="text-gray-800 text-sm">Other interests include:</p>
+    <ul class="flex space-x-2 justify-center flex-wrap">
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        Running
+      </li>
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        React
+      </li>
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        Design
+      </li>
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        CI/CD
+      </li>
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        Gaming
+      </li>
+      <li
+        class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium leading-4 bg-indigo-100 text-indigo-800 mb-1">
+        Theatre
+      </li>
+    </ul>
+    <form name="contact" method="POST" data-netlify="true" class="text-left">
+      <div>
+        <label for="name" class="block text-sm font-medium leading-5 text-gray-700">Your Name</label>
+        <div class="mt-1 relative rounded-md shadow-sm">
+          <input id="name" name="name" type="text" class="form-input block w-full sm:text-sm sm:leading-5" />
         </div>
-        <!-- <p>
+      </div>
+      <!-- <p>
           <label>Your Email: <input type="email" name="email" /></label>
         </p> -->
-        <div>
-          <label
-            for="email"
-            class="block text-sm font-medium leading-5 text-gray-700"
-            >Email</label
-          >
-          <div class="mt-2 relative rounded-md shadow-sm">
-            <div
-              class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none"
-            >
-              <!-- Heroicon name: mail -->
-              <svg
-                class="h-5 w-5 text-gray-400"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-                />
-                <path
-                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-                />
-              </svg>
-            </div>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              class="form-input block w-full pl-10 sm:text-sm sm:leading-5"
-            />
+      <div>
+        <label for="email" class="block text-sm font-medium leading-5 text-gray-700">Email</label>
+        <div class="mt-2 relative rounded-md shadow-sm">
+          <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+            <!-- Heroicon name: mail -->
+            <svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+            </svg>
           </div>
+          <input id="email" type="email" name="email" class="form-input block w-full pl-10 sm:text-sm sm:leading-5" />
         </div>
-        <div class="mt-2 items-start border-t border-gray-200">
-          <label
-            for="message"
-            class="block text-sm font-medium leading-5 text-gray-700 mt-px pt-2"
-          >
-            Message
-          </label>
-          <div class="sm:mt-0">
-            <div class="max-w-lg flex rounded-md shadow-sm">
-              <textarea
-                id="message"
-                rows="3"
-                class="form-textarea block w-full transition duration-150 ease-in-out text-sm leading-5"
-              ></textarea>
-            </div>
-          </div>
-        </div>
-        <div class="flex justify-end">
-          <span class="mt-2 inline-flex rounded-md shadow-sm">
-            <button
-              type="submit"
-              class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-blue-600 hover:bg-blue-500 focus:outline-none focus:border-blue-700 focus:shadow-outline-blue active:bg-blue-700 transition ease-in-out duration-150"
-            >
-              Send
-              <!-- Heroicon name: mail -->
-              <svg
-                class="ml-2 -mr-0.5 h-4 w-4"
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-              >
-                <path
-                  d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
-                />
-                <path
-                  d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
-                />
-              </svg>
-            </button>
-          </span>
-        </div>
-      </form>
-      <div class="inline-flex flex-col align-center">
-        <span>Follow me on Twitter!</span>
-        <a
-          href="https://twitter.com/TheWhalePhail"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex justify-center"
-        >
-          <img
-            class="h-10 w-10"
-            src="https://img.icons8.com/cute-clipart/64/000000/twitter.png"
-          />
-        </a>
       </div>
+      <div class="mt-2 items-start border-t border-gray-200">
+        <label for="message" class="block text-sm font-medium leading-5 text-gray-700 mt-px pt-2">
+          Message
+        </label>
+        <div class="sm:mt-0">
+          <div class="max-w-lg flex rounded-md shadow-sm">
+            <textarea id="message" rows="3"
+              class="form-textarea block w-full transition duration-150 ease-in-out text-sm leading-5"></textarea>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-end">
+        <span class="mt-2 inline-flex rounded-md shadow-sm">
+          <button type="submit"
+            class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150">
+            Send
+            <!-- Heroicon name: mail -->
+            <svg class="ml-2 -mr-0.5 h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+              <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+            </svg>
+          </button>
+        </span>
+      </div>
+    </form>
+    <div class="inline-flex flex-col align-center">
+      <span>Follow me on Twitter!</span>
+      <a href="https://twitter.com/TheWhalePhail" target="_blank" rel="noopener noreferrer" class="flex justify-center">
+        <img class="h-10 w-10" src="https://img.icons8.com/cute-clipart/64/000000/twitter.png" />
+      </a>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
